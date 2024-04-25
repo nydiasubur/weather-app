@@ -1,6 +1,6 @@
 import "./App.css";
 import Weather from "./Weather";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
             href="https://www.linkedin.com/in/nydiasubur/"
             target="_blank"
             rel="noopener noreferrer"
+            autoFocus="on"
           >
             Nydia Subur
           </a>{" "}
