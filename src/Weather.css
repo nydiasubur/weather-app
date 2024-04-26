@@ -23,7 +23,7 @@
   line-height: 19px;
   list-style: none;
 }
-.Weather img {
+.Weather canvas {
   position: relative;
   top: 10px;
   margin-right: 10px;
