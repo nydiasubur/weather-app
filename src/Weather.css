@@ -23,12 +23,10 @@
   line-height: 19px;
   list-style: none;
 }
-.Weather canvas {
+.Weather svg .WeatherData-icon {
   position: relative;
-  top: 10px;
+  top: -20px;
   margin-right: 10px;
-  height: 64px;
-  width: 64px;
 }
 .Weather .temperature-unit {
   position: relative;
