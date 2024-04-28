@@ -19,7 +19,6 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
     });
-    console.log(response.data);
   }
   function search() {
     const apiKey = "7d478f69e1b2f5d563653f13f5f91d76";

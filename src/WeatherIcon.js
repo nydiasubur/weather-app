@@ -3,7 +3,6 @@ import React from "react";
 
 export default function weatherIcon(props) {
   let iconId = props.iconId;
-  console.log(`iconId:${iconId}`);
   let iconMap = {
     "01d": "sunny",
     "01n": "clear-night",
