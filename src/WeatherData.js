@@ -5,7 +5,7 @@ import "./Weather.css";
 
 export default function WeatherData(props) {
   return (
-    <div>
+    <div className="WeatherData">
       <h1 className="text-capitalize">{props.weatherInfo.cityName}</h1>
       <ul>
         <li>
@@ -25,7 +25,7 @@ export default function WeatherData(props) {
             temperatureCelcius={props.weatherInfo.temperature}
           />
         </div>
-        <div className="col-6">
+        <div className="col-6 weather-description">
           <li>Precipitation: 15%</li>
           <li>Humidity: {props.weatherInfo.humidity}%</li>
           <li>Wind: {props.weatherInfo.wind} km/h</li>

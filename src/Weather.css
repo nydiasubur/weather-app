@@ -1,15 +1,16 @@
 .Weather {
   border: 1px solid;
-  padding: 16px;
+  padding: 20px;
   font-family: arial, sans-serif;
   border-radius: 4px;
-  color: #878787;
-  margin: 30px auto;
+  color: #ffffff;
+  margin: 80px auto;
+  width: 950px;
 }
 
 .Weather h1 {
-  font-size: 24px;
-  line-height: 26px;
+  font-size: 35px;
+  line-height: 30px;
   margin-top: 20px;
 }
 .Weather ul {
@@ -20,25 +21,39 @@
 .Weather li {
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 20px;
   list-style: none;
+  opacity: 0.8;
 }
-.Weather svg .WeatherData-icon {
+.Weather svg {
   position: relative;
-  top: -20px;
-  margin-right: 10px;
+  top: 5px;
 }
 .Weather .temperature-unit {
   position: relative;
   font-size: 20px;
   font-weight: 400;
-  top: -30px;
+  top: -15px;
+  left: -17px;
   line-height: 1;
 }
 
 .Weather .temperature {
+  position: relative;
+  top: 15px;
   font-size: 64px;
   font-size: bold;
   font-weight: 400;
   color: rgb(232, 234, 237);
+}
+.Weather .weather-description {
+  position: relative;
+  top: 30px;
+}
+
+.WeatherData {
+  margin-bottom: 15px;
+}
+.WeatherData .row {
+  margin-top: 5px;
 }

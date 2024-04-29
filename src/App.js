@@ -8,7 +8,7 @@ function App() {
         <Weather cityName="Singapore" />
 
         <footer>
-          This project was coded by{" "}
+          This project was coded with 🧡 by{" "}
           <a
             href="https://www.linkedin.com/in/nydiasubur/"
             target="_blank"
